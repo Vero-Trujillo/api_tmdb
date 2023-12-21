@@ -1,0 +1,8 @@
+.contenedor-peliculas {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ }

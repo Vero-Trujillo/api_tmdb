@@ -1,0 +1,35 @@
+.barra-busqueda {
+    position: fixed;
+    top: 95px;
+    left: 36%;
+    display: flex;
+}
+
+.barra-busqueda input {
+    height: 40px;
+    width: 380px;
+    background-color: rgb(192, 185, 185);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.barra-busqueda input::placeholder {
+    color: rgb(243, 235, 235);
+    font-family: serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.contenedor-peliculas {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
